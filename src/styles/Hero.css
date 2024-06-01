@@ -1,0 +1,25 @@
+/* src/styles/Hero.css */
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+.hero {
+  font-family: "Outfit", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: #61dafb;
+  color: #282c34;
+  text-align: center;
+  padding-top: 80px; /* Adjust for fixed header */
+}
+
+.hero h1 {
+  font-size: 4em;
+  margin: 0;
+}
+
+.hero p {
+  font-size: 1.5em;
+  margin: 20px 0 0;
+}

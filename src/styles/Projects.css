@@ -1,0 +1,59 @@
+/* src/styles/Projects.css */
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+.projects {
+  font-family: "Outfit", sans-serif;
+  padding: 100px 20px;
+  background: #fff;
+  color: #333;
+  text-align: center;
+}
+
+.projects h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.projects ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.projects li {
+  margin: 20px;
+  padding: 20px;
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 300px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.projects h3 {
+  margin-bottom: 10px;
+  font-size: 1.5em;
+}
+
+.projects p {
+  font-size: 1em;
+  margin-bottom: 10px;
+}
+
+.projects a {
+  text-decoration: none;
+  color: #61dafb;
+  font-weight: bold;
+}
+
+.projects a:hover {
+  color: #21a1f1;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
