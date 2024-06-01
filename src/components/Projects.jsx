@@ -1,4 +1,5 @@
-// src/components/Projects.js
+// src/components/Projects.jsx
+
 import React from "react";
 import "../styles/Projects.css";
 
@@ -22,7 +23,7 @@ const Projects = () => {
       link: "#",
       code: "",
     },
-    // Add more projects as needed
+
   ];
 
   return (

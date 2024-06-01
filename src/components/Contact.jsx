@@ -1,4 +1,5 @@
-// src/components/Contact.js
+// src/components/Contact.jsx
+
 import React from "react";
 import "../styles/Contact.css";
 
