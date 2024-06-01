@@ -1,13 +1,16 @@
 /* src/styles/About.css */
-
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
 
 .about {
-  font-family: "Outfit", sans-serif;
-  padding: 100px 20px; /* Adjust for fixed header */
-  background: #f4f4f4;
+  margin-top: 10px;
+  padding: 40px 20px;
+  background: linear-gradient(135deg, #f06, #4a90e2);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+
   color: #333;
   text-align: center;
+  font-family: "Outfit", sans-serif;
 }
 
 .about h2 {
@@ -20,4 +23,67 @@
   max-width: 800px;
   margin: 0 auto;
   line-height: 1.6;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px 20px;
+}
+
+.skill p {
+  margin-top: 10px;
+  font-size: 1em;
+}
+
+.skill.html .fa-html5 {
+  color: #e34c26;
+}
+
+.skill.css .fa-css3-alt {
+  color: #1572b6;
+}
+
+.skill.js .fa-js {
+  color: #f7df1e;
+}
+
+.skill.react .fa-react {
+  color: #61dafb;
+}
+
+.skill.bootstrap .fa-bootstrap {
+  color: #563d7c;
+}
+
+.skill.nodejs .fa-node-js {
+  color: #339933;
+}
+
+.skill.mongodb .fa-leaf {
+  color: #4caf50;
+}
+
+.skill.mysql .fa-server {
+  color: #00758f;
+}
+
+.skill.git .fa-git {
+  color: RED;
+}
+
+.skill.github .fa-github {
+  color: #181717;
+}
+
+.skill.express .fa-node-js {
+  color: #68a063;
 }

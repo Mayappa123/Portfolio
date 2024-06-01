@@ -1,26 +1,70 @@
 /* src/styles/Hero.css */
 
-@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
-
 .hero {
-  font-family: "Outfit", sans-serif;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
-  background: #61dafb;
-  color: #282c34;
-  text-align: center;
-  padding-top: 80px; /* Adjust for fixed header */
+  height: 400px;
+  font-family: "Outfit", sans-serif;
+  margin-top: 40px;
+  padding: 20px 20px;
+  background: linear-gradient(135deg, #f06, #4a90e2);
+  border-radius: 20px;
 }
 
-.hero h1 {
-  font-size: 4em;
+.hero-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  width: 100%;
+  padding: 20px;
+}
+
+.hero-text {
+  max-width: 50%;
+}
+
+.hero-text h1 {
+  font-size: 3em;
   margin: 0;
+  color: #333;
 }
 
-.hero p {
+.hero-text p {
   font-size: 1.5em;
-  margin: 20px 0 0;
+  color: #666;
+  margin-top: 10px;
 }
+
+.hero-image {
+  max-width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-image img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+  .hero-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-text {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .hero-image {
+    max-width: 100%;
+  }
+}
+

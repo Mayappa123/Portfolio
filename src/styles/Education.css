@@ -1,0 +1,42 @@
+/* src/styles/Education.css */
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+.education {
+  padding: 20px 20px;
+  background: linear-gradient(135deg, #f06, #4a90e2);
+  border-radius: 20px;
+  color: #333;
+  text-align: center;
+  font-family: "Outfit", sans-serif;
+  margin-top: 10px;
+}
+
+.education h2 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+  font-family: "Outfit", sans-serif;
+}
+
+.education-container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.education-item {
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.education-item h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.education-item p {
+  font-size: 1.1em;
+  margin: 5px 0;
+}
