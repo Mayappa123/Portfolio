@@ -16,7 +16,7 @@ Welcome to my personal portfolio! This project showcases my skills, experience, 
 ## Introduction
 
 <p style="font-size: 18px; color: #333;">
-Hi! I'm <strong>[Your Name]</strong>, a passionate Full Stack Web Developer with a knack for creating dynamic and responsive web applications. This portfolio is a testament to my dedication to web development and showcases some of my favorite projects.
+Hi! I'm <strong>Mayappa</strong>, a passionate Full Stack Web Developer with a knack for creating dynamic and responsive web applications. This portfolio is a testament to my dedication to web development and showcases some of my favorite projects.
 </p>
 
 ## Features
@@ -56,10 +56,10 @@ To get a local copy up and running, follow these simple steps.
 
 ```bash
 # Clone the repo
-git clone https://github.com/your-username/my-portfolio.git
+git clone https://github.com/Mayappa123/Portfolio.git
 
 # Navigate to the project directory
-cd my-portfolio
+cd Portfolio
 
 # Install dependencies
 npm install
