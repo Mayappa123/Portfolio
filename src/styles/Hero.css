@@ -8,7 +8,7 @@
   font-family: "Outfit", sans-serif;
   margin-top: 40px;
   padding: 20px 20px;
-  background: linear-gradient(135deg, #f06, #4a90e2);
+  /* background-color: rgb(20, 33, 155); */
   border-radius: 20px;
 }
 
@@ -28,12 +28,12 @@
 .hero-text h1 {
   font-size: 3em;
   margin: 0;
-  color: #333;
+  color: #fff;
 }
 
 .hero-text p {
   font-size: 1.5em;
-  color: #666;
+  color: white;
   margin-top: 10px;
 }
 
@@ -49,7 +49,10 @@
   height: 300px;
   border-radius: 50%;
   object-fit: cover;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+ box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 
+              0 0 80px rgba(0, 255, 255, 0.6),   /* Cyan */
+              0 0 160px rgba(0, 255, 0, 0.5),     /* Green */
+              0 0 240px rgba(135, 206, 250, 0.4); /* Sky Blue */
 }
 
 @media (max-width: 768px) {

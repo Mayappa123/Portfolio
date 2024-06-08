@@ -1,11 +1,12 @@
 /* src/styles/Footer.css */
 
 .footer {
-  padding: 20px;
   background-color: #333;
+  padding: 20px;
   color: white;
   text-align: center;
   position: relative;
+  width: 100vw;
 }
 
 .footer .social-icons {

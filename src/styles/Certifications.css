@@ -1,0 +1,54 @@
+/* src/styles/Certifications.css */
+
+.certifications {
+  padding: 60px 20px;
+  text-align: center;
+  font-family: "Outfit", sans-serif;
+}
+
+.certifications h2 {
+  font-size: 2.5em;
+  margin-bottom: 40px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.certifications-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.certification {
+  background: linear-gradient(90deg, rgb(33, 47, 128), rgb(45, 54, 129));
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 2px solid green;
+  padding: 20px;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 600px;
+  text-align: left;
+}
+
+.certification h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.certification p {
+  font-size: 1em;
+  color: #666;
+  margin: 5px 0;
+}
+
+@media (max-width: 768px) {
+  .certifications-list {
+    padding: 0 10px;
+  }
+
+  .certification {
+    width: 100%;
+  }
+}

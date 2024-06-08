@@ -18,7 +18,7 @@ const Projects = () => {
       code: "",
     },
     {
-      name: "TODO App",
+      name: "Todo App",
       description: "Description of project 2",
       link: "#",
       code: "",
@@ -35,8 +35,12 @@ const Projects = () => {
             <h3>{project.name}</h3>
             <p>{project.description}</p>
             <div className="link">
-              <a href={project.link}>Live Link</a>
-              <a href={project.code}>Source Code</a>
+              <button type="button" className="btn">
+                <a href={project.link}>Live Link</a>
+              </button>
+              <button type="button" className="btn">
+                <a href={project.code}>Source Code</a>
+              </button>
             </div>
           </li>
         ))}

@@ -5,7 +5,7 @@
 .contact {
   padding: 18px 20px;
   font-family: "Outfit", sans-serif;
-  background: linear-gradient(135deg, #f06, #4a90e2);
+    /* background-color: rgb(20, 33, 155); */
   border-radius: 20px;
   margin: 10px 0;
   color: black;
@@ -13,7 +13,10 @@
 }
 
 .contact h2 {
+  color: #fff;
   font-size: 2.5em;
+  font-weight: 400;
+
   margin-bottom: 20px;
   font-family: "Outfit", sans-serif;
 }

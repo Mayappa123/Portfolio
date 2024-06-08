@@ -3,7 +3,6 @@
 
 .education {
   padding: 20px 20px;
-  background: linear-gradient(135deg, #f06, #4a90e2);
   border-radius: 20px;
   color: #333;
   text-align: center;
@@ -13,8 +12,10 @@
 
 .education h2 {
   font-size: 2.5em;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  color: #fff;
 }
 
 .education-container {
@@ -24,15 +25,28 @@
 }
 
 .education-item {
-  background: white;
+  display: flex;
+  flex-direction: row;
+  background: linear-gradient(90deg, rgb(33, 47, 128), rgb(45, 54, 129));
   padding: 20px;
+  color: white;
   margin-bottom: 20px;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+.logo img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
 
 .education-item h3 {
   font-size: 1.5em;
+  font-weight: 400;
   margin-bottom: 10px;
 }
 
