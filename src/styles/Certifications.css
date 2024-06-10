@@ -1,14 +1,14 @@
 /* src/styles/Certifications.css */
 
 .certifications {
-  padding: 60px 20px;
+  padding: 20px 20px;
   text-align: center;
   font-family: "Outfit", sans-serif;
 }
 
 .certifications h2 {
   font-size: 2.5em;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   font-weight: 400;
   color: #fff;
 }
@@ -27,7 +27,7 @@
   padding: 20px;
   border-radius: 8px;
   width: 100%;
-  max-width: 600px;
+  max-width: 900px;
   text-align: left;
 }
 

@@ -2,7 +2,7 @@
 
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
+import { faPhone } from "@fortawesome/free-solid-svg-icons";
 import {
   faFacebook,
   faLinkedin,
@@ -15,40 +15,56 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="social-icons">
-        <a href="mailto:your-email@example.com">
-          <FontAwesomeIcon icon={faEnvelope} size="2x" />
-        </a>
-        <a href="tel:+1234567890">
-          <FontAwesomeIcon icon={faPhone} size="2x" />
-        </a>
-        <a
-          href="https://facebook.com/yourprofile"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <FontAwesomeIcon icon={faFacebook} size="2x" />
-        </a>
-        <a
-          href="https://linkedin.com/in/yourprofile"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <FontAwesomeIcon icon={faLinkedin} size="2x" />
-        </a>
-        <a
-          href="https://github.com/yourprofile"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <FontAwesomeIcon icon={faGithub} size="2x" />
-        </a>
-        <a
-          href="https://instagram.com/yourprofile"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <FontAwesomeIcon icon={faInstagram} size="2x" />
-        </a>
+        <div className="icon">
+          <a href="tel:+1234567890" className="phone">
+            <FontAwesomeIcon icon={faPhone} />
+          </a>
+          <span>7522995689</span>
+        </div>
+        <div className="icon">
+          <a
+            href="https://facebook.com/yourprofile"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="facebook"
+          >
+            <FontAwesomeIcon icon={faFacebook} />
+          </a>
+          <span>Mayappa Pujari</span>
+        </div>
+        <div className="icon">
+          <a
+            href="https://linkedin.com/in/yourprofile"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="linkedin"
+          >
+            <FontAwesomeIcon icon={faLinkedin} />
+          </a>
+          <span>Mayappa</span>
+        </div>
+        <div className="icon">
+          <a
+            href="https://github.com/yourprofile"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="github"
+          >
+            <FontAwesomeIcon icon={faGithub} />
+          </a>
+          <span>Mayappa123</span>
+        </div>
+        <div className="icon">
+          <a
+            href="https://instagram.com/yourprofile"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="instagram"
+          >
+            <FontAwesomeIcon icon={faInstagram} />
+          </a>
+          <span>mayappapujari</span>
+        </div>
       </div>
       <p>&copy; 2024 Mayappa. All rights reserved.</p>
     </footer>

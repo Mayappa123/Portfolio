@@ -3,72 +3,135 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
 
 .contact {
-  padding: 18px 20px;
+  padding: 20px 20px;
   font-family: "Outfit", sans-serif;
-    /* background-color: rgb(20, 33, 155); */
+  background: linear-gradient(90deg, rgb(25, 33, 99), rgb(20, 28, 93));
   border-radius: 20px;
-  margin: 10px 0;
-  color: black;
+  margin: 20px 0;
+  color: white;
   text-align: center;
 }
 
 .contact h2 {
-  color: #fff;
   font-size: 2.5em;
+  color: white;
   font-weight: 400;
-
   margin-bottom: 20px;
+  margin-top: 0px;
   font-family: "Outfit", sans-serif;
 }
 
 .contact form {
-  max-width: 600px;
+  max-width: 900px;
   margin: 0 auto;
   background: rgba(255, 255, 255, 0.1);
-  padding: 20px;
+  padding: 30px;
   border-radius: 10px;
   backdrop-filter: blur(10px);
-}
-
-.form-group {
-  margin-bottom: 20px;
   text-align: left;
 }
 
+.nameEmail {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.form-group {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
 .form-group label {
-  display: block;
   font-size: 1.1em;
   margin-bottom: 8px;
+  color: #fff;
 }
 
 .form-group input,
 .form-group textarea {
   width: 100%;
-  padding: 10px;
-  border: none;
-  border-radius: 5px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
   font-size: 1em;
   font-family: "Outfit", sans-serif;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+  opacity: 0.3;
+  color: #ffffff;
+  font-weight: 400;
 }
 
 .form-group input:focus,
 .form-group textarea:focus {
   outline: none;
-  border: 2px solid #4a90e2;
+  box-shadow: 0 0 10px rgba(97, 218, 251, 0.6);
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
-button {
-  display: inline-block;
-  padding: 10px 20px;
-  font-size: 1.2em;
+input[type="submit"] {
+  background-color: #04aa6d;
   color: white;
-  background: #4a90e2;
+  padding: 8px 10px;
   border: none;
-  border-radius: 5px;
+  border-radius: 4px;
   cursor: pointer;
   transition: background 0.3s ease;
 }
 
-button:hover {
-  background: #061d33;
+input[type="submit"]:hover {
+  background-color: #45a049;
 }
+
+@media (max-width: 600px) {
+  .contact {
+    padding: 20px;
+  }
+
+  .contact h2 {
+    font-size: 2em;
+  }
+
+  .contact form {
+    padding: 20px;
+  }
+
+  .nameEmail {
+    flex-direction: column;
+  }
+
+  input[type="submit"] {
+    font-size: 1em;
+  }
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+}
+
+.button input {
+  font-family: "Outfit", sans-serif;
+  background-color: #391fcc;
+  color: #fff;
+  width: 80px;
+  border-radius: 20px;
+}
+
+.icon {
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
