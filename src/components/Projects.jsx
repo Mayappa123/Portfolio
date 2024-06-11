@@ -7,23 +7,29 @@ const Projects = () => {
   const projectList = [
     {
       name: "Spotify Clone",
-      description: "Description of project 1",
+      description: "This clone of Spotify Website built using HTML and CSS.",
       link: "#",
       code: "",
     },
     {
       name: "Blog Website",
-      description: "Description of project 2",
+      description:
+        "This is full stack project using node.js, express.js with EJS templates.",
       link: "#",
       code: "",
     },
     {
       name: "Todo App",
-      description: "Description of project 2",
+      description: "This is first project built using HTML, CSS and JS.",
       link: "#",
       code: "",
     },
-
+    {
+      name: "Gradient color generator",
+      description: "This project built using HTML, CSS and JS. Random function plays crucial role to generate random color.",
+      link: "#",
+      code: "",
+    },
   ];
 
   return (

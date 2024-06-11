@@ -10,7 +10,7 @@ const Certifications = () => {
       <div className="certifications-list">
         <div className="certification">
           <h3>Full Stack Web Development Course</h3>
-          <button>
+          <button className="viewBtn">
             <a
               href="https://drive.google.com/file/d/119EJqNxr83FFy-ILk-w3o3aLANSsS4Ir/view?usp=drive_link"
               target="_blank"

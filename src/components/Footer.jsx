@@ -1,14 +1,9 @@
-// src/components/Footer.jsx
-
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faPhone } from "@fortawesome/free-solid-svg-icons";
-import {
-  faFacebook,
-  faLinkedin,
-  faGithub,
-  faInstagram,
-} from "@fortawesome/free-brands-svg-icons";
+import CallIcon from "@mui/icons-material/Call";
+import FacebookIcon from "@mui/icons-material/Facebook";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import InstagramIcon from "@mui/icons-material/Instagram";
+import GitHubIcon from "@mui/icons-material/GitHub";
 import "../styles/Footer.css";
 
 const Footer = () => {
@@ -17,7 +12,7 @@ const Footer = () => {
       <div className="social-icons">
         <div className="icon">
           <a href="tel:+1234567890" className="phone">
-            <FontAwesomeIcon icon={faPhone} />
+            <CallIcon style={{ color: "#4CAF50" }} />
           </a>
           <span>7522995689</span>
         </div>
@@ -28,7 +23,7 @@ const Footer = () => {
             rel="noopener noreferrer"
             className="facebook"
           >
-            <FontAwesomeIcon icon={faFacebook} />
+            <FacebookIcon style={{ color: "#1877F2" }} />
           </a>
           <span>Mayappa Pujari</span>
         </div>
@@ -39,7 +34,7 @@ const Footer = () => {
             rel="noopener noreferrer"
             className="linkedin"
           >
-            <FontAwesomeIcon icon={faLinkedin} />
+            <LinkedInIcon style={{ color: "#0077B5" }} />
           </a>
           <span>Mayappa</span>
         </div>
@@ -50,7 +45,7 @@ const Footer = () => {
             rel="noopener noreferrer"
             className="github"
           >
-            <FontAwesomeIcon icon={faGithub} />
+            <GitHubIcon style={{ color: "#333" }} />
           </a>
           <span>Mayappa123</span>
         </div>
@@ -61,7 +56,7 @@ const Footer = () => {
             rel="noopener noreferrer"
             className="instagram"
           >
-            <FontAwesomeIcon icon={faInstagram} />
+            <InstagramIcon style={{ color: "#E1306C" }} />
           </a>
           <span>mayappapujari</span>
         </div>

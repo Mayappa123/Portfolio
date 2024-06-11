@@ -1,6 +1,7 @@
 /* src/styles/Certifications.css */
 
 .certifications {
+
   padding: 20px 20px;
   text-align: center;
   font-family: "Outfit", sans-serif;
@@ -21,14 +22,21 @@
 }
 
 .certification {
-  background: linear-gradient(90deg, rgb(33, 47, 128), rgb(45, 54, 129));
+  background: rgba(255, 255, 255, 0.1);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  border: 2px solid green;
   padding: 20px;
   border-radius: 8px;
   width: 100%;
   max-width: 900px;
   text-align: left;
+    transition: box-shadow 0.3s ease-in-out;
+
+}
+
+.certification:hover {
+    box-shadow: 0 0 10px rgba(97, 218, 251, 0.6);
+
+
 }
 
 .certification h3 {
@@ -52,3 +60,19 @@
     width: 100%;
   }
 }
+
+.viewBtn {
+  width: 80px;
+  background-color: #391fcc;
+  border-radius: 25px;
+}
+
+.viewBtn a {
+  color: white;
+}
+
+.viewBtn a:hover {
+  background-color: green;
+
+}
+

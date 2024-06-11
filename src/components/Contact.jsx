@@ -10,22 +10,22 @@ const Contact = () => {
       <form action="">
         <div className="nameEmail">
           <div className="form-group one">
-            <label htmlFor="fname">First Name</label>
+            <label htmlFor="name">Name</label>
             <input
               type="text"
-              id="fname"
-              name="firstname"
-              placeholder="Enter firstname.."
+              id="name"
+              name="name"
+              placeholder="Enter name..."
               required
             />
           </div>
           <div className="form-group two">
-            <label htmlFor="lname">Last Name</label>
+            <label htmlFor="email">Email</label>
             <input
-              type="text"
-              id="lname"
-              name="lastname"
-              placeholder="Enter latsname.."
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Enter email..."
               required
             />
           </div>
@@ -36,7 +36,7 @@ const Contact = () => {
           <textarea
             id="subject"
             name="subject"
-            placeholder="Write something.."
+            placeholder="Write something..."
             style={{ height: "100px" }}
             required
           ></textarea>

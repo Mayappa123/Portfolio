@@ -19,6 +19,19 @@ const Hero = () => {
             JavaScript, and frameworks such as React and Bootstrap, I bring a
             comprehensive approach to every project.
           </p>
+          <div className="btnGroup">
+            <button className="btn">
+              <a
+                href="./assets/Mayappa_Pujari_Updated_Resume.pdf"
+                target="_blank"
+              >
+                View Resume
+              </a>
+            </button>
+            <button className="btn">
+              <a href="">Contact me</a>
+            </button>
+          </div>
         </div>
         <div className="hero-image">
           <img src={MyImage} alt="Mayappa" />
