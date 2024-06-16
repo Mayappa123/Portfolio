@@ -64,8 +64,10 @@ li h3 {
 }
 
 .btn:hover {
-  color: #fff;
   background-color: green;
+}
+.btn a:hover {
+  color: #fff;
 }
 
 .link {
@@ -76,7 +78,9 @@ li h3 {
 
 .btn {
   background-color: #391fcc;
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
+  box-shadow: 2px 2px 5px aqua, 2px -2px 5px aqua, -2px 2px 5px aqua,
+    -2px -2px 5px aqua;
   border-radius: 23px;
 }
 .btn a {
