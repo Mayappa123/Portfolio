@@ -23,7 +23,7 @@ html {
   --black: #000;
 }
 
-/* Header Design */
+/* Header */
 .header {
   display: flex;
   justify-content: space-between;
@@ -106,7 +106,6 @@ html {
   color: var(--secondary-color);
 }
 
-/* Media Queries */
 @media (max-width: 768px) {
   .header {
     padding: 10px 5%;
