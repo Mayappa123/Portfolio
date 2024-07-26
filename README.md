@@ -65,6 +65,6 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 ## 📞 Contact
 
-- **LinkedIn**: [Your LinkedIn Profile](https://www.linkedin.com/in/mayappapujari1999/)
+- **LinkedIn**: [https://www.linkedin.com/in/mayappapujari1999/](https://www.linkedin.com/in/mayappapujari1999/)
 - **Email**: [mayappapujari561999@gmail.com](mailto:mayappapujari561999@gmail.com)
-- **GitHub**: [Mayappa123](https://github.com/Mayappa123)
+- **GitHub**: [https://github.com/Mayappa123](https://github.com/Mayappa123)
