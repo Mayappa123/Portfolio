@@ -4,7 +4,7 @@ Welcome to my personal portfolio website! This is where I showcase my projects, 
 
 ## 🖥️ Demo
 
-Check out the live demo [here](https://).
+Check out the live demo [here](https://mayappa123.github.io/Portfolio/).
 
 ## 🌟 Features
 
@@ -48,7 +48,6 @@ Explore the different sections of the portfolio to learn more about me, my skill
 - **HTML5**: For structuring the content.
 - **CSS3**: For styling and layout.
 - **JavaScript**: For interactivity.
-- **Frameworks/Libraries**: Any frameworks or libraries you have used (e.g., React, Bootstrap).
 
 ## 🤝 Contributing
 
@@ -66,6 +65,6 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 ## 📞 Contact
 
-- **LinkedIn**: [Your LinkedIn Profile](https://linkedin.com/in/mayappapujari1999)
-- **Email**: [your-email@example.com](mailto:mayappapujari561999@gmail.com)
+- **LinkedIn**: [Your LinkedIn Profile](https://www.linkedin.com/in/mayappapujari1999/)
+- **Email**: [mayappapujari561999@gmail.com](mailto:mayappapujari561999@gmail.com)
 - **GitHub**: [Mayappa123](https://github.com/Mayappa123)
